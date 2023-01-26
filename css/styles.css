@@ -33,9 +33,6 @@ button{
 
 .list{
     list-style: none;
-    text-decoration: none;
-
-
 }
 body{
     font-family: var( --primary-font);
@@ -63,18 +60,11 @@ line-height: 1.33;
 display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var( --secondary-font);
+color: #4D5AE5;
 }
 .logo-studio-black{
 
-/* NAVY BLUE */
-
 color: #2E2F42;
-color: #4D5AE5;
-}
-.contact-link:hover{
-    color: #434455; 
-    color: #404BBF;
 }
 .contact-link{
     font-family: 'Roboto';
@@ -84,6 +74,24 @@ color: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
+}
+
+.contact-link:hover{ 
+color: #404BBF;
+}
+
+.nav-link{
+font-family: 'Roboto';
+font-weight: 500;
+color:  #2E2F42;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+}
+.nav-link :hover,
+.nav-link :focus{
+color: #404BBF;
 }
 /*==================/HEADER===============*/
 /*==================HERO===============*/
@@ -100,7 +108,7 @@ color: #FFFFFF;
 
 .hero-button:hover,
 .hero-button:focus{
-    background-color: #4D5AE5;  
+ background: #404BBF;
 }
 
 
@@ -115,27 +123,12 @@ color: #FFFFFF;
     letter-spacing: 0.04em;
     border:none;
     color: #FFFFFF;
-    background-color: #353535;
+    background: #4D5AE5;
 
 }
-.nav-link focus,
-.nav-link hover{
-    background:#E7E9FC; 
-    color: #4D5AE5;
+.hero{
+background: #2E2F42;
 }
-
-.nav-link{
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #4D5AE5;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    border: none;
-    text-decoration:none;
-}
-
 /*==================/HERO===============*/
 
 /*==================Methods===============*/
@@ -173,7 +166,7 @@ color: #2E2F42;
 
 /*==================PORTFOLIO===============*/
 .button-portfolio-special{
-    background-color: #404BBF;
+    background: #404BBF; 
     font-family: 'Roboto';
     width: 21px;
     border:none;
@@ -183,17 +176,15 @@ color: #2E2F42;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 
 }
-.button-portfolio :focus{
-    color: #4D5AE5;
-    background: #f4f4fd;
-}
+
 .button-portfolio{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-size: 16px;
+font-weight: 500;
 line-height: 1.5;
 display: flex;
 align-items: center;
@@ -201,9 +192,14 @@ text-align: center;
 letter-spacing: 0.04em;
 border:none;
 color: #4D5AE5;
+background: #F4F4FD;
 cursor: pointer;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+}
+.button-portfolio :focus{
+    color: #4D5AE5;
+    background: #f4f4fd;
 }
 
 /*===================Section====================*/
@@ -227,7 +223,9 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455; 
 }
-
+.section-team{
+background: #F4F4FD;  
+}
 /*=================/SECTION=====================*/
 
 /*==================FOOTER===============*/
@@ -239,28 +237,30 @@ color: #2E2F42;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+   color: #4D5AE5;
     text-decoration: none;
 }
 .footer-description{
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 
-color: #E7E9FC;
+color: #F4F4FD;
 }
 .logo-studio-white{
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
-
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-    color: #F4F4FD;
-    color: #4D5AE5;
+ color: #F4F4FD;
+  
+}
+.section-footer{
+background: #2E2F42
 
 }
 /*=================/FOOTER===============*/
