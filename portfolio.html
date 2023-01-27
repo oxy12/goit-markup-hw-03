@@ -11,16 +11,17 @@
 <!--header-->
   <header>
     <!--navigation-->
-    <nav>
-      <a class ="logo list" href="index.html" >Web<span class="logo-studio-black">Studio</span></a>
+    <nav class="navigation">
+      <a class ="logo link" href="index.html" >Web<span class="logo-studio-black">Studio</span></a>
       <ul class ="navigation list">
-        <li>
-          <a class="nav-link link" href="./index.html" >Studio</a>
+        <li class="site-nav-item">
+          <a class="nav-link link" href="./index.html">Studio</a>
         </li>
-        <li>
+        <li class="site-nav-item">
           <a class ="nav-link link" href="./portfolio.html">Portfolio</a>
         </li>
-        <li>
+          
+        <li class="site-nav-item">
           <a class ="nav-link link" href="#contacts">Contacts</a>
         </li>
       </ul>
@@ -37,94 +38,117 @@
   </header>
 
   <main>
-<section>
-                <!--h1 hidden-->
+<section class="portfolio-section section">
+  <div class = "container">
+      <!--h1 hidden-->
   <h1 class="hidden-title">What we do</h1>
-    <ul class= "example-buttons list ">
-      <li><button class="button-portfolio-special" type="button" >All</button></li>
-      
-      <li>
-        <button type="button" class ="button-portfolio">Web site</button>
-      </li>
-      <li>
-        <button type="button" class="button-portfolio">App</button>
-      </li>
-      <li>
-        <button type="button" class="button-portfolio">Design</button>
-      </li>
-      <li>
-        <button type="button" class="button-portfolio">Marketing</button>
-      </li>
+  <ul class= "example-buttons list ">
+    <li>
+      <button class="button-portfolio" type="button" >All</button></li>
+    
+    <li>
+      <button  class ="button-portfolio" type="button">Web Studio</button>
+    </li>
+    <li>
+      <button  class ="button-portfolio" type="button">App</button>
+    </li>
+    <li>
+      <button  class ="button-portfolio" type="button">Design</button>
+    </li>
+    <li>
+      <button  class ="button-portfolio" type="button">Marketing</button>
+        </li>
       </ul>
-    <ul class= "example-gallery list">
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/bank-app.jpg" width=360 height=300 alt="Bank app example">
+  <ul class= "example-gallery list">
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/bank-app.jpg" width=360 height=300 alt="Bank app example">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Banking App Interface Concept</h2>
           <p class="example-text">App</p>
-        </a>
-      </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/code.jpg" width=360 height=300 alt="QR code">
+        </a> 
+        </div>
+    </li>
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/code.jpg" width=360 height=300 alt="QR code">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Cashless Payment</h2>
           <p class="example-text">Marketing</p>
         </a>
+        </div>
       </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/return.jpg" width=360 height=300 alt="Meditation app">
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/return.jpg" width=360 height=300 alt="Meditation app">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Meditaion App</h2>
-          <p class="example-text">App</p>
-        </a>
-      </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/wheel.jpg" width=360 height=300 alt="Taxi Service">
+        <p class="example-text">App</p>
+        </a> 
+      </div>
+        </li>
+      
+    </li>
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/wheel.jpg" width=360 height=300 alt="Taxi Service">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Taxi Service</h2>
           <p class="example-text">Marketing</p>
         </a>
-      </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/screen.jpg" width=360 height=300 alt="Phone screen">
+        </div>
+        
+    </li>
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/screen.jpg" width=360 height=300 alt="Phone screen">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Screen Illustrations</h2>
           <p class="example-text">Design</p>
         </a>
+        </div>
       </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/modern.jpg" width=360 height=300 alt="Women with earbuds">
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/modern.jpg" width=360 height=300 alt="Women with earbuds">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title"><span lang="en">Online Courses</span></h2>
           <p class="example-text">Marketing</p>
-        </a>
+          </a>
+      </div>
       </li>
-  
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/feautures.jpg" width=360 height=300 alt="Instagram">
+
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/feautures.jpg" width=360 height=300 alt="Instagram">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Instagram Stories Concept</h2>
           <p class="example-text">Design</p>
         </a>
+        </div>
       </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/nature.jpg" width=370 height=294 alt="Food">
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/nature.jpg" width=370 height=294 alt="Food">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Organic Food</h2>
           <p class="example-text">Web Site</p>
         </a>
+      </div>
       </li>
-      <li>
-        <a class="link-portfolio link" href="#">
-          <img src="./images/portfolio/coffee.jpg" width=370 height=294 alt="Coffee">
+    <li class="example-gallery-item">
+      <a class="link-portfolio link" href="#">
+        <img src="./images/portfolio/coffee.jpg" width=370 height=294 alt="Coffee">
+        <div class="portfolio-wrapper">
           <h2 class="section-sub-title">Fresh Coffee</h2>
-          <p class="example-text">Web Site</p>
-        </a>
-      </li>
-</ul>
-
-</section>
-  </main>
+        <p class="example-text">Web Site</p>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </section>
+</main>
 
   <footer class ="section-footer">
     <div class="container">
