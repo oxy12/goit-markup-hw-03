@@ -107,11 +107,13 @@ color:
 #2E2F42;
 
 }
-.navigation {
+.nav-class{
     display: flex;
-    gap: 40px;
-
-    
+    margin-left: 76px;
+}
+.navigation{
+    display: flex;
+    gap: 40px;  
 }
 .nav-link{
     font-family: var(--primary-font);
@@ -123,6 +125,7 @@ color:
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+
     
 }
     .nav-link :hover,
@@ -145,6 +148,8 @@ color:
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left:24px;
+    padding-top: 24px;
 }
 .contact-link:hover, 
 .contact-link:focus{ 
@@ -206,8 +211,6 @@ color:#FFFFFF;
     flex-basis: calc((100% -(var(--indent)* var(--items1)))/ var(--items2));
 }
 
-
-
 .methods{
 font-family: var(--primary-font);
 font-weight: 500;
@@ -250,7 +253,7 @@ margin-bottom: 0;
     }
 .gallery-list{
     display: flex;
-    gap: 32px;
+    gap: 24px;
 }
 .gallery-list-item{
     flex-basis: calc((100% - var(--indent) * var(--items3))) / var(--items1);
@@ -273,14 +276,21 @@ padding: 120px 0;
     vertical-align:  middle;
     gap: var(--indent);
 }
-/*.member-card-item{
-    border: 0, 5px;
+.member-card-item{
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+0px 1px 1px rgba(46, 47, 66, 0.16), 
+0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+
+    /*border: 0, 5px;
     color: #f4f4fd;
     background: #FFFFFF; 
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - (var(--indent) * var(--items1))) / var(--items2));
-}
-*/
+}*/
+
     .member-wrapper{
         padding: 32px 16px;
         text-align: center;
@@ -292,12 +302,20 @@ padding: 120px 0;
 }
 
     .example-text{
-        font-family: 'Roboto';
+        font-family: var(--primary-font);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455; 
+        margin-top:8px;
+        }
+        .section-sub-title{
+            font-family: var(--primary-font);
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em
         }
 .button-portfolio{
     font-family: 'Roboto';
@@ -336,7 +354,6 @@ padding: 120px 0;
     padding-left: 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
-    background: #F4F4FD;
 }
 .example-gallery-item{
     flex-basis: calc((100% - (var(--indent) * var(--items3))) / var(--items1));
@@ -372,6 +389,7 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 display: block;
 width: 264px;
+margin-top:16px;
 }
 .logo-studio-white{
 color: #F4F4FD;
